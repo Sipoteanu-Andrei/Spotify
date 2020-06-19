@@ -1,0 +1,128 @@
+@charset "utf-8";
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body{	
+	background:#131519;
+	color:white;
+	padding:0;
+	margin:0;
+	font-family:sans-serif;
+	
+}
+
+main{
+	background: white;
+	width:900px;
+	margin:auto;
+}
+
+.log_reg_btn{
+	display:inline-block;
+	background: #2f3640;
+	border-radius:40px;
+	padding:10px;
+	color:#E84118;
+	box-shadow: 1px 1px 1px white;
+	left:50%;
+	transition:.5s;
+}
+
+.log_reg_btn:hover:before{
+	background:#75849A;
+}
+
+.log_reg_btn:hover{
+	background:#75849A;
+}
+
+.login_register{
+	transition:.5s;
+	position:absolute;
+	left:45%;
+	top:9%;
+}
+
+.loginbox{
+	display:flex;
+	position:absolute;
+	flex-direction: row;
+	align-items:center;
+	top:30%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	background: #2f3640;
+	border-radius:40px;
+	padding:10px;
+	box-shadow: 1px 1px 1px white;
+	transition:.5s;
+}
+
+.loginbox h1{
+	display:flex;
+	margin:auto;
+	order:1;
+	float:left;
+	font-size:40px;
+	border-right: 4px double #E84118;
+}
+
+.loginbox h2{
+	display:flex;
+	order:2;
+	float:left;
+	font-size:16px;
+	display:inline-block;
+	border-right: 4px double #E84118;
+}
+
+.container{
+	width:50%;
+	display:block;
+	float:left;	
+}
+
+.textbox{
+	float:right;
+	width:90%;
+	font-size 20px;
+	padding:8px 0;
+}
+
+.textbox i{
+	color:#E84118;
+	width:26px;
+	float:left;
+}
+
+.textbox input{
+	border:none;
+	outline:none;
+	background:none;
+	color:white;
+	font-size=18px;
+}
+.loginbox .btn{
+	display:flex;
+	order:3;
+	height:100px;
+	background:#E84118;
+	padding: 5px;
+	font-size:18px;
+	border-radius:40px;
+	cursor:pointer;
+}
+.btn:hover{
+	background:#F0846A;
+	transition: .5s;
+
+
+}
+
+.activ{
+  color:#336699;
+  padding-bottom:7px;
+  border-bottom: 1px solid #336699;
+  cursor: pointer; cursor: pointer; 
+}
+#componente{
+	display:none;
+}
